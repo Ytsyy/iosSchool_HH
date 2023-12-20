@@ -37,5 +37,4 @@ class CharacterCell: UICollectionViewCell, CoreCellView {
     func update(with inputData: CharacterCellData) {
         nameLabel.text = inputData.name
     }
-
 }
